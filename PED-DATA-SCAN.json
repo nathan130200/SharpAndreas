@@ -1,0 +1,14 @@
+{
+  "data_directory": "C:\\Games\\GTA San Andreas\\data",
+  "ped_models": 276,
+  "stats_profiles": 43,
+  "source_sha256": {
+    "peds.ide": "9b4613614cc1db2f7b9bebbf39d7e9152957d8b63e4b3dc30a81b10bc6762420",
+    "pedstats.dat": "f9c952425f4b9209c812b3267753dd46c058bb7250a236814797951469bde10a"
+  },
+  "notes": [
+    "Read-only scan; only declared models included, model ID gaps preserved.",
+    "Special model slots preserve placeholder names; runtime replacements are not inferred.",
+    "Model 51 uses mixed comma/whitespace separators."
+  ]
+}

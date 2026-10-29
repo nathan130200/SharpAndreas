@@ -1,0 +1,4 @@
+name = "NPC Health Bars"
+version = "1.0.0.0"
+assembly = "NpcHealthBars.dll"
+main-class = "SharpAndreas.Examples.NpcHealthBars"

@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup Condition="'$(PlatformTarget)' == '' Or '$(PlatformTarget)' == 'AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Target Name="SharpAndreasValidatePlatform" BeforeTargets="CoreCompile" Condition="'$(PlatformTarget)' != 'x86'">
+    <Error Text="SharpAndreas.Api requires PlatformTarget=x86 because GTA San Andreas and its CoreCLR host are 32-bit." />
+  </Target>
+</Project>

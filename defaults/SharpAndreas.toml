@@ -1,0 +1,11 @@
+enabled = true
+profiler = false
+
+[scheduler]
+max_callbacks_per_frame = 64
+budget_milliseconds = 2.0
+
+[hot_reload]
+enabled = true
+poll_milliseconds = 500
+stabilize_milliseconds = 500

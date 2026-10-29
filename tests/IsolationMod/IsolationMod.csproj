@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><DefineConstants>$(DefineConstants);$(ModName)</DefineConstants><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><AssemblyName>$(ModName)</AssemblyName></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../managed/SharpAndreas.Api/SharpAndreas.Api.csproj" />
+    <ProjectReference Include="../PrivateDependency/PrivateDependency.csproj" />
+  </ItemGroup>
+</Project>
+

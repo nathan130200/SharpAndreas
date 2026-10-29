@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>SharpAndreas.Api</PackageId>
+    <Version>1.1.0</Version>
+    <Authors>SharpAndreas</Authors>
+    <Description>C# and VB modding API for the x86 SharpAndreas GTA San Andreas ASI host.</Description>
+    <PackageReadmeFile>MODDING.md</PackageReadmeFile>
+    <PackageTags>gta;san-andreas;modding;asi;coreclr</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Tomlyn" Version="2.10.1" />
+    <None Include="../../MODDING.md" Pack="true" PackagePath="/" />
+    <None Include="../../API-SYSTEMS.md" Pack="true" PackagePath="/" />
+    <None Include="../../DECISION_MAKERS.md" Pack="true" PackagePath="/" />
+    <None Remove="buildTransitive/SharpAndreas.Api.targets" />
+    <None Include="buildTransitive/SharpAndreas.Api.targets" Pack="true" PackagePath="buildTransitive/" />
+  </ItemGroup>
+</Project>

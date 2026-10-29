@@ -1,0 +1,4 @@
+name = "Los Santos - Grove Street Race"
+version = "1.0.0.0"
+assembly = "GroveStreetRace.dll"
+main-class = "SharpAndreas.Examples.GroveStreetRace"

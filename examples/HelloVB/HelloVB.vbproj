@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><RootNamespace>HelloVB</RootNamespace><OptionStrict>On</OptionStrict></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../managed/SharpAndreas.Api/SharpAndreas.Api.csproj" /></ItemGroup>
+</Project>

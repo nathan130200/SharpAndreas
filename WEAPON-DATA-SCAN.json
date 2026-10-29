@@ -1,0 +1,17 @@
+{
+  "data_directory": "C:\\Games\\GTA San Andreas\\data",
+  "weapon_count": 47,
+  "referenced_model_count": 44,
+  "source_files": {
+    "weapon.dat": "033b3db45a00464fd95cb28870c97b45b0712f0ac53f3e8c586c88aaa0a420f8",
+    "default.ide": "3aea4d74891f77602e1e7e32e3dfd6716fcccf257e87f7ab43c57f64339ff8c2",
+    "gtasa_weapon_config.dat": "3a71293cd5b4e3fc13ef4f31a8eb3d90b50708435c4a9698186d4b5f59ba19ec"
+  },
+  "notes": [
+    "Read-only scan; no game files modified.",
+    "Weapon IDs validated against Plugin-SDK and the installed limit-adjuster configuration when present.",
+    "Reverse model lookup includes shared and secondary models.",
+    "Unarmed has no model (-1).",
+    "Skill variants agree on fire type, models and slot."
+  ]
+}

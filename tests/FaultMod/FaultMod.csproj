@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName Condition="'$(ModName)' != ''">$(ModName)</AssemblyName><DefineConstants>$(DefineConstants);$(ModName)</DefineConstants><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../managed/SharpAndreas.Api/SharpAndreas.Api.csproj" /></ItemGroup>
+</Project>
+
+

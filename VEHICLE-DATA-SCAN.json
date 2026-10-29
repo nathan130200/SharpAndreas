@@ -1,0 +1,14 @@
+{
+  "data_directory": "C:\\Games\\GTA San Andreas\\data",
+  "vehicle_models": 212,
+  "source_sha256": {
+    "vehicles.ide": "2d70455cda1ed89da9cc1a995ccb2539899b84360a2411c887d88617365ead37",
+    "handling.cfg": "b6d06109441c342a000e8bec367ffac1bd949cd12690372dc01a2c025d6c0240"
+  },
+  "notes": [
+    "Read-only scan; only declared models included.",
+    "All handling IDs validated against handling.cfg.",
+    "Missing optional wheel fields are null, not invented defaults.",
+    "Flags and component rules parsed as hexadecimal."
+  ]
+}
